@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+
+<body>
+    <div style="text-align: center; border: 2px solid black; padding: 20px; width: 80%; max-width: 1200px; margin: auto;">
+        <h1>shanmuga priya</h1>
+        <p>Web Developer | Chennai, India</p>
+
+        <div style="margin-bottom: 20px;">
+            <button onclick="location.href='#about'">About</button>
+            <button onclick="location.href='#contact'">Contact</button>
+            <button onclick="location.href='#education'">Education</button>
+            <button onclick="location.href='#experience'">Experience</button>
+            <button onclick="location.href='#skills'">Skills</button>
+        </div>
+
+        <div id="about" style="border: 1px solid black; padding: 10px; margin-bottom: 20px; display: inline-block; width: 60%; text-align: center;">
+            <h2>About Me</h2>
+            <img src="data:image/png;base64,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" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px; margin-top: 10px;">
+            <p>Hello! I am shanmuga priya, a passionate Web Developer with experience in creating dynamic and responsive websites. I am skilled in HTML, CSS, JavaScript, and have a strong foundation in computer science.</p>
+        </div>
+
+        <div id="contact" style="border: 1px solid black; padding: 10px; margin-bottom: 20px; display: inline-block; width: 60%; text-align: center;">
+            <h2>Contact Information</h2>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li>Email: kanishanma1970@gmail.com</li>
+                <li>Phone: +91 9345496759</li>
+                <li>LinkedIn: linkedin.com/in/shanmugapriya</li>
+                <li>GitHub:https://github.com/shanmugapriyatharani</li>
+            </ul>
+        </div>
+
+        <div id="education" style="border: 1px solid black; padding: 10px; margin-bottom: 20px; display: inline-block; width: 60%; text-align: center;">
+            <h2>Education</h2>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li>High School - Gandhinagar high School, 2019 - 2021</li>
+                <li>B.E in Computer Science - saveetha University, 2022 - 2026</li>
+                
+            </ul>
+        </div>
+
+        <div id="experience" style="border: 1px solid black; padding: 10px; margin-bottom: 20px; display: inline-block; width: 60%; text-align: center;">
+            <h2>Experience</h2>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li><strong>Intern - Web Development, Tech Solutions</strong> (Jan 2023 - June 2023)
+                    <ul style="list-style-type: none; padding: 0; margin: 0;">
+                        <li>Developed and maintained the company's website using HTML, CSS, and JavaScript.</li>
+                        <li>Collaborated with the design team to create user-friendly web interfaces.</li>
+                    </ul>
+                </li>
+                <li><strong>Freelance Web Developer</strong> (July 2022 - Dec 2022)
+                    <ul style="list-style-type: none; padding: 0; margin: 0;">
+                        <li>Worked on various client projects including website development and maintenance.</li>
+                        <li>Specialized in creating responsive and accessible web designs.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="skills" style="border: 1px solid black; padding: 10px; margin-bottom: 20px; display: inline-block; width: 60%; text-align: center;">
+            <h2>Skills</h2>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, C</li>
+                <li>Web Development</li>
+                <li>Machine Learning</li>
+                <li>Version Control (Git)</li>
+            </ul>
+        </div>
+
+        <footer style="margin-top: 20px; padding: 10px; border-top: 1px solid black;">
+            <p>&copy; 2024. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
